@@ -18,11 +18,12 @@ app.use((0, morgan_1.default)('dev'));
 app.get('/', (req, res) => {
     res.send(`
         Prisma CRUD
-        Routes :
-            - GET /users
-            - GET /users/:id
-            - POST /users
-            - PUT /users/:id
+        <br />
+        Routes :<br />
+            - GET /users<br />
+            - GET /users/:id<br />
+            - POST /users<br />
+            - PUT /users/:id<br />
             - DELETE /users/:id
     `);
 });
